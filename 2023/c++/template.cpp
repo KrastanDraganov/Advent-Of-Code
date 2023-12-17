@@ -23,6 +23,11 @@ int main()
 
     ifstream fin("input.txt");
 
+    string row;
+    while (getline(fin, row))
+    {
+    }
+
     fin.close();
 
     auto t_begin = chrono::high_resolution_clock::now();
